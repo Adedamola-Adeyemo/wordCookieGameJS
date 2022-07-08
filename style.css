@@ -1,0 +1,52 @@
+.active-word, .word-line1, .word-line2, .derived-word1, .derived-word2, .derived-word3, .derived-word4{
+    display:flex;
+   
+}
+
+body{
+    padding: 5% 20%;
+    text-align: center;
+}
+button{
+    background-color: gainsboro;
+    width: 50px;
+    height: 50px;
+}
+.word-line1, .word-line2{
+    background-color: yellow;
+    padding: 4%;
+}
+
+.word-line1 button, .word-line2 button{
+    width: 40px;
+    height: 40px;
+}
+
+.derived-word1 , .derived-word2, .derived-word3, .derived-word4{
+    padding: 2%;
+}
+
+.control button{
+    padding: 1%;
+    width: 10%;
+    color: gainsboro;
+    
+}
+#clear{
+    background-color: red;
+}
+#submit{
+    background-color: green;
+}
+@media screen and (max-width: 770px){
+    .word-line1, .word-line2{
+        display: block;
+    }
+    .control button{
+        padding: 1%;
+        width: 30%;
+    }
+    .active-word{
+        width: 90%;
+    }
+}

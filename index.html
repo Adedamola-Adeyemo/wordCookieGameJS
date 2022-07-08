@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Cookie Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Word Cookie Game</h1>
+        <p>Form as many words as possible from the word below</p>
+    </header>
+    <br>
+    <hr>
+    <br>
+    <div class="active-word">
+        <button id="1" onclick="pickLetter1()"></button>
+        <button id="2" onclick="pickLetter2()"></button>
+        <button id="3" onclick="pickLetter3()"></button>
+        <button id="4" onclick="pickLetter4()"></button>
+        <button id="5" onclick="pickLetter5()"></button>
+        <button id="6" onclick="pickLetter6()"></button>
+        <button id="7" onclick="pickLetter7()"></button>
+        <button id="8" onclick="pickLetter8()"></button>
+        <button id="9" onclick="pickLetter9()"></button>
+    </div>
+    <br>
+    <hr>
+    <div class="derived-words">
+        <div class="word-line1">
+            <div class="derived-word1">
+                <button id="row1a" ></button>
+                <button id="row1b" ></button>
+                <button id="row1c" ></button>
+                <button id="row1d" ></button>
+                <button id="row1e" ></button>
+                <button id="row1f" ></button>
+                <button id="row1g" ></button>
+                <button id="row1h" ></button>
+            </div>
+            <div class="derived-word2">
+                <button id="row2a" ></button>
+                <button id="row2b" ></button>
+                <button id="row2c" ></button>
+                <button id="row2d" ></button>
+                <button id="row2e" ></button>
+                <button id="row2f" ></button>
+                <button id="row2g" ></button>
+                <button id="row2h" ></button>
+                
+            </div>
+        </div>
+        <div class="word-line2">
+            <div class="derived-word3">
+                <button id="row3a" ></button>
+                <button id="row3b" ></button>
+                <button id="row3c" ></button>
+                <button id="row3d" ></button>
+                <button id="row3e" ></button>
+                <button id="row3f" ></button>
+                <button id="row3g" ></button>
+                <button id="row3h" ></button>
+                
+            </div>
+            <div class="derived-word4">
+                <button id="row4a" ></button>
+                <button id="row4b" ></button>
+                <button id="row4c" ></button>
+                <button id="row4d" ></button>
+                <button id="row4e" ></button>
+                <button id="row4f" ></button>
+                <button id="row4g" ></button>
+                <button id="row4h" ></button>
+                
+            </div>
+        </div>
+        <div class="control">
+            <button id="clear" type="submit" onclick="clearButton()">Clear</button>
+            <button id="submit" type="submit"> Submit </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
