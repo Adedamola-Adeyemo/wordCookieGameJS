@@ -39,6 +39,10 @@ button{
     background-color: green;
 }
 @media screen and (max-width: 770px){
+    body{
+        padding: 5% 10%;
+        
+    }
     .word-line1, .word-line2{
         display: block;
     }
