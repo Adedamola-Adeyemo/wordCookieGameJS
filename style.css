@@ -7,6 +7,17 @@ body{
     padding: 5% 20%;
     text-align: center;
 }
+.level-div{
+    display: flex;
+    text-align: left;
+    
+}
+#level{
+    color: green;   
+}
+.level-div h2{
+    padding-right: 5px;
+}
 button{
     background-color: gainsboro;
     width: 50px;
