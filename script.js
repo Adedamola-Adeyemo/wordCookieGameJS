@@ -374,16 +374,16 @@ function submitButton(){
                 
                 clearAllButtons();
                 level.innerHTML = `${levelCount+=1}`;
-                count = 1;
+                count = 0;
                 alertCount = 0;
-                derived1 = document.getElementById(`row${count}a`);
-                derived2 = document.getElementById(`row${count}b`);
-                derived3 = document.getElementById(`row${count}c`);
-                derived4 = document.getElementById(`row${count}d`);
-                derived5 = document.getElementById(`row${count}e`);
-                derived6 = document.getElementById(`row${count}f`);
-                derived7 = document.getElementById(`row${count}g`);
-                derived8 = document.getElementById(`row${count}h`);
+                derived1 = document.getElementById("row1a");
+                derived2 = document.getElementById("row1b");
+                derived3 = document.getElementById("row1c");
+                derived4 = document.getElementById("row1d");
+                derived5 = document.getElementById("row1e");
+                derived6 = document.getElementById("row1f");
+                derived7 = document.getElementById("row1g");
+                derived8 = document.getElementById("row1h");
             }
             
             
