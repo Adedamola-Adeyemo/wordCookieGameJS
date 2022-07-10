@@ -343,10 +343,10 @@ function clearAllButtons(){
     pickLevelWord();
 }
 
-let count = 1;
+var count = 1;
 let new_word = derived1.innerHTML.toString()+derived2.innerHTML.toString()+derived3.innerHTML.toString()+derived4.innerHTML.toString()+derived5.innerHTML.toString()+derived6.innerHTML.toString()+derived7.innerHTML.toString()+derived8.innerHTML.toString();
 
-let alertCount = 0;
+var alertCount = 0;
 
 function submitButton(){
 
@@ -374,6 +374,16 @@ function submitButton(){
                 
                 clearAllButtons();
                 level.innerHTML = `${levelCount+=1}`;
+                count = 1;
+                alertCount = 0;
+                derived1 = document.getElementById(`row${count}a`);
+                derived2 = document.getElementById(`row${count}b`);
+                derived3 = document.getElementById(`row${count}c`);
+                derived4 = document.getElementById(`row${count}d`);
+                derived5 = document.getElementById(`row${count}e`);
+                derived6 = document.getElementById(`row${count}f`);
+                derived7 = document.getElementById(`row${count}g`);
+                derived8 = document.getElementById(`row${count}h`);
             }
             
             
