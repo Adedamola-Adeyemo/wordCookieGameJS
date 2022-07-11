@@ -10,25 +10,28 @@
 <body>
     <header>
         <h1>Word Cookie Game</h1>
-        <p>Form 4 new words from the word below</p>
+        <p>Form <b>4 new words</b> by clicking on the letters of the word below. Click <b>'submit'</b> after each word formed.</p>
     </header>
-    <br>
+
     <div class="level-div">
         <h2>Level</h2><h2 id ="level"></h2>
     </div>
     
     <hr>
     <br>
-    <div class="active-word">
-        <button id="1" onclick="pickLetter1()"></button>
-        <button id="2" onclick="pickLetter2()"></button>
-        <button id="3" onclick="pickLetter3()"></button>
-        <button id="4" onclick="pickLetter4()"></button>
-        <button id="5" onclick="pickLetter5()"></button>
-        <button id="6" onclick="pickLetter6()"></button>
-        <button id="7" onclick="pickLetter7()"></button>
-        <button id="8" onclick="pickLetter8()"></button>
-        <button id="9" onclick="pickLetter9()"></button>
+    <div class="word">
+        <div class="active-word">
+            <button id="1" onclick="pickLetter1()"></button>
+            <button id="2" onclick="pickLetter2()"></button>
+            <button id="3" onclick="pickLetter3()"></button>
+            <button id="4" onclick="pickLetter4()"></button>
+            <button id="5" onclick="pickLetter5()"></button>
+            <button id="6" onclick="pickLetter6()"></button>
+            <button id="7" onclick="pickLetter7()"></button>
+            <button id="8" onclick="pickLetter8()"></button>
+            <button id="9" onclick="pickLetter9()"></button>
+        </div>
+        <div id ="word-meaning"></div>
     </div>
     <br>
     <hr>

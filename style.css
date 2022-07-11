@@ -1,10 +1,12 @@
-.active-word, .word-line1, .word-line2, .derived-word1, .derived-word2, .derived-word3, .derived-word4{
+.word, .active-word, .word-line1, .word-line2, .derived-word1, .derived-word2, .derived-word3, .derived-word4{
     display:flex;
    
 }
-
+#word-meaning{
+    padding-left:2%;
+}
 body{
-    padding: 5% 20%;
+    padding: 2% 20%;
     text-align: center;
 }
 .level-div{
@@ -25,7 +27,7 @@ button{
 }
 .word-line1, .word-line2{
     background-color: yellow;
-    padding: 4%;
+    padding: 2% 4%;
 }
 
 .word-line1 button, .word-line2 button{
@@ -51,10 +53,13 @@ button{
 }
 @media screen and (max-width: 770px){
     body{
-        padding: 5% 10%;
+        padding: 2% 5%;
         
     }
-    .word-line1, .word-line2{
+    #word-meaning{
+        padding: 1% 2%;
+    }
+    .word, .word-line1, .word-line2{
         display: block;
     }
     .control button{
