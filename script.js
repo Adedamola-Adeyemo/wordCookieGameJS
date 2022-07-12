@@ -50,9 +50,10 @@ function pickLevelWord(){
 }
 pickLevelWord();
 
+async function wordMeaning(){
 let word = pickLevelWord();
 let meaningDiv = document.getElementById("word-meaning");
-async function wordMeaning(){
+
     try{
     let url = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
    const res = await fetch(url);
