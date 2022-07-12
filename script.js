@@ -359,7 +359,7 @@ function clearAllButtons(){
     for(let b=0; b<clearBtnArray2.length;b++){
         clearBtnArray2[b].innerHTML = "";
     }
-    pickLevelWord();
+    
 }
 
 var count = 1;
@@ -392,6 +392,7 @@ function submitButton(){
                 alert('Congratulations on finishing this level! Click to start the next level');
                 
                 clearAllButtons();
+                
                 level.innerHTML = `${levelCount+=1}`;
                 count = 0;
                 alertCount = 0;
@@ -403,6 +404,9 @@ function submitButton(){
                 derived6 = document.getElementById("row1f");
                 derived7 = document.getElementById("row1g");
                 derived8 = document.getElementById("row1h");
+
+                pickLevelWord();
+                wordMeaning();
             }
             
             
