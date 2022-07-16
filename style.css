@@ -51,7 +51,7 @@ button{
 #submit{
     background-color: green;
 }
-@media screen and (max-width: 770px){
+@media screen and (max-width: 771px){
     body{
         padding: 2% 5%;
         
