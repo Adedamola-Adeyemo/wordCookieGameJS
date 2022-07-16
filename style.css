@@ -59,8 +59,8 @@ button{
     #word-meaning{
         padding: 1% 2%;
     }
-    .word, .word-line1, .word-line2{
-        display: block;
+   .word, .active-word, .word-line1, .word-line2, .derived-word1, .derived-word2, .derived-word3, .derived-word4{
+    display:block;
     }
     .control button{
         padding: 1%;
